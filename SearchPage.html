@@ -7,15 +7,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet"> 
 <style>
+.h1mod {
+    size: 30px; position: relative;
+    left: 300px;
+    font-family: 'Source Sans Pro', sans-serif
+}
 .hyperlinkstyle {
     font-size: 20px; position: relative;
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
     text-decoration: none;
 }
+.inputstyle {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 450px;
+    bottom: 2000px;
+    width: 500px;
+    height: 50px;
+    font-size: 40px;
+    border-color: black;
+    border-radius: 3px;
+    outline: none;
+    border-style: solid;
+}
+input::placeholder {
+  color: black;
+}
 .h4style {
     font-size: 30px; position: relative;
-    top: 514px;
+    top: 439px;
     font-family: 'Cabin', sans-serif
 }
 .ok {
@@ -23,7 +44,7 @@
     padding: 17px; 
     position: relative;
     font-size: 17px;
-    top: 843px;
+    top: 769px;
 }
 .div_two {
     padding: 10px; 
@@ -47,11 +68,13 @@ body {
 }
 </style>
 <body>
+    <h1 class="h1mod">FastOS-Not-Real Repositories and Packages for this project</h1>
     <div class="div_two">
         <h1 class="h4style">Menu</h1>
-        <a class="hyperlinkstyle" style="top: 524px;" href="index.html">Welcome Page</a>
-        <a class="hyperlinkstyle" style="top: 536px;" href="SearchPage.html">SearchPage</a>
+        <a class="hyperlinkstyle" style="top: 449px;" href="index.html">Welcome Page</a>
+        <a class="hyperlinkstyle" style="top: 461px;" href="SearchPage.html">SearchPage</a>
         <h5 class="ok">for better resolution or better visibility I recommend using firefox (i tested)</h2>
     </div>
+    <input type="text" id="title" style="color: black;" class="inputstyle" placeholder="Search Package">
 </body>
 </html>
