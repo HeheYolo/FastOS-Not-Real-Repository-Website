@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title></title>
+<title>FastOS-Not-Real-Repository-Website</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet"> 
 <style>
 .h1mod {
     size: 30px; position: relative;
     left: 300px;
+    font-family: 'Source Sans Pro', sans-serif
+}
+.h1style {
+    font-size: 30px; position: relative;
+    bottom: 19px;
     font-family: 'Source Sans Pro', sans-serif
 }
 .hyperlinkstyle {
@@ -18,25 +24,9 @@
     color: black;
     text-decoration: none;
 }
-.inputstyle {
-    font-family: 'Source Sans Pro', sans-serif;
-    position: relative;
-    left: 450px;
-    bottom: 2000px;
-    width: 500px;
-    height: 50px;
-    font-size: 40px;
-    border-color: black;
-    border-radius: 3px;
-    outline: none;
-    border-style: solid;
-}
-input::placeholder {
-  color: black;
-}
 .h4style {
     font-size: 30px; position: relative;
-    top: 439px;
+    bottom: 20px;
     font-family: 'Cabin', sans-serif
 }
 .ok {
@@ -44,7 +34,29 @@ input::placeholder {
     padding: 17px; 
     position: relative;
     font-size: 17px;
-    top: 769px;
+    top: 309px;
+}
+h2,h3 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 17px; 
+    position: relative;
+    left: 537px;
+    size: 10px;
+    font-size: 23px;
+}
+.h4mod {
+    font-family: 'Open Sans', sans-serif;
+    padding: 17px; position: relative;
+    left: 487px; size: 10px;
+    font-size: 23px;
+}
+.div_one {
+    font-family: 'Roboto Mono', sans-serif;
+    border: 2.5px solid #cccbcb;
+    padding: 10px; background-color: rgb(173, 173, 173);
+    width: 400px; border-radius: 5px;
+    size: 30px;
+    text-align: center; position: relative; left: 470px;
 }
 .div_two {
     padding: 10px; 
@@ -52,9 +64,9 @@ input::placeholder {
     width: 200px; 
     text-align: center; 
     position: relative;
-    bottom: 542px;
+    bottom: 545px;
     right: 8px;
-    height: 2000px;
+    height: 1100px;
 }
 hr {
     height: 1px;
@@ -68,13 +80,18 @@ body {
 }
 </style>
 <body>
-    <h1 class="h1mod">FastOS-Not-Real Repositories and Packages for this project</h1>
-    <div class="div_two">
-        <h1 class="h4style">Menu</h1>
-        <a class="hyperlinkstyle" style="top: 449px;" href="index.html">Welcome Page</a>
-        <a class="hyperlinkstyle" style="top: 461px;" href="SearchPage.html">SearchPage</a>
-        <h5 class="ok">for better resolution or better visibility I recommend using firefox (i tested)</h2>
-    </div>
-    <input type="text" id="title" style="color: black;" class="inputstyle" placeholder="Search Package">
+<h1 class="h1mod">FastOS-Not-Real Repositories and Packages for this project</h1>
+<h2>To install package use</h2>
+<div class="div_one">turbo-make-install</div>
+<h3>To remove package use</h3>
+<div class="div_one">turbo-make-delete</div>
+<h4 class="h4mod">To Sync/upgrade os/package use</h4>
+<div class="div_one">turbo-make-sync</div>
+<div class="div_two">
+    <h1 class="h4style">Menu</h1>
+    <a class="hyperlinkstyle" style="bottom: 10px;" href="index.html">Welcome Page</a>
+    <a class="hyperlinkstyle" style="top: 2px;" href="SearchPage.html">SearchPage</a>
+    <h5 class="ok">for better resolution or better visibility I recommend using firefox (i tested)</h2>
+</div>
 </body>
 </html>
